@@ -12,7 +12,9 @@
             <nav>
                 <ul>
                     <li><a href="#about">關於我</a></li>
-                    <li><a href="#creations">創作</a></li>
+                    <li><a href="#clips">剪輯</a></li>
+                    <li><a href="#draws">繪圖</a></li>
+                    <li><a href="#live2ds">建模</a></li>
                     <li><a href="#contact">聯絡方式</a></li>
                 </ul>
             </nav>
@@ -21,36 +23,22 @@
         <section id="about">
             <h2>關於我</h2>
             <p>
-                NYCU BS畢業生，主修AI與Network
-                Engineering領域，閒暇之餘的興趣是相關的創作
+                在Twitch開台，主要玩FPS、TFT、LOL。閒暇之餘會學習剪片、畫圖與建模，偶爾會寫code。
             </p>
         </section>
 
-        <section id="creations">
-            <h2>創作展示</h2>
-            <div class="creation-filters">
-                <button onclick="filterCreations('all')">全部</button>
-                <button onclick="filterCreations('tech')">剪輯</button>
-                <button onclick="filterCreations('life')">生活</button>
-                <button onclick="filterCreations('other')">其他</button>
-            </div>
-            <div class="creation-list">
-                <div class="creation tech">
-                    <h3>技術文章 1</h3>
-                    <p>文章描述</p>
-                    <a href="#">閱讀更多</a>
-                </div>
-                <div class="creation life">
-                    <h3>生活文章 1</h3>
-                    <p>文章描述</p>
-                    <a href="#">閱讀更多</a>
-                </div>
-                <div class="creation other">
-                    <h3>其他文章 1</h3>
-                    <p>文章描述</p>
-                    <a href="#">閱讀更多</a>
-                </div>
-            </div>
+        <section id="clips">
+            <h2>剪輯</h2>
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/videoseries?si=M2AOObMENhhjUtYG&amp;list=PL_a7MeDtkXanFKoBuZfxIk0bflMrdw0rx"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+            ></iframe>
         </section>
 
         <section id="contact">
@@ -58,6 +46,5 @@
             <p>Email: a1301145@gmail.com</p>
             <p><a href="https://github.com/Sakuya0229">GitHub</a></p>
         </section>
-        <script src="scripts.js"></script>
     </body>
 </html>
