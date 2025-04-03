@@ -50,6 +50,13 @@ section {
     width: 80%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none; /* 預設隱藏所有 section */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+section.active {
+    display: block; /* 只顯示被點擊的 section */
+    opacity: 1;
 }
 
 .media-container {
@@ -66,4 +73,12 @@ section {
 .media-item p {
     font-weight: bold;
     font-size: 20px;
+}
+#contact {
+    display: block; /* 永遠顯示聯絡方式 */
+    opacity: 1;
+}
+#about {
+    display: block; /* 永遠顯示關於我 */
+    opacity: 1;
 }
